@@ -1,22 +1,22 @@
 import { Box } from '@mui/material';
 import React from 'react';
-// import { Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 
 import './App.css';
-// import Footer from './components/Footer';
-// import Navbar from './components/Navbar';
-// import ExerciseDetail from './pages/ExerciseDetail';
-// import Home from './pages/Home';
+import Footer from './components/Footer';
+import Navbar from './components/Navbar';
+import ExerciseDetail from './Pages/ExerciseDetail';
+import Home from './Pages/Home';
 
 const App = () => (
   <Box width="400px" sx={{ width: { xl: '1488px' } }} m="auto">
-    <h1>App</h1>
-    {/* <Navbar />
+   
+     <Navbar />
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/exercise/:id" element={<ExerciseDetail />} />
     </Routes>
-    <Footer /> */}
+    <Footer /> 
   </Box>
 );
 
