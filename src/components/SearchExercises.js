@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import { exerciseOptions, fetchData } from '../utils/fetchData'
 
 const SearchExercises = () => {
-    const [search, setSearch] = useState('second')
+    const [search, setSearch] = useState('')
 
     const handleSearch = async() => {
         if(search){
